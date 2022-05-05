@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://serhii-sunko.github.io/emotion-AMPinteractive",
+  "homepage": "https://serhii-sunko.github.io/Serhii-Sunko-emotion-AMP_interactive/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /emotion-AMPinteractive/"
+    "build": "parcel build src/*.html --public-url /Serhii-Sunko-emotion-AMP_interactive/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://serhii-sunko.github.io/emotion-AMPinteractive"
+    "url": "git+https://serhii-sunko.github.io/Serhii-Sunko-emotion-AMP_interactive"
   },
   "keywords": [],
   "author": "Serhii Sunko <sergeysunko01@gmail.com>",
