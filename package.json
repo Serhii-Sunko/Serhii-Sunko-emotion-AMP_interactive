@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://serhii-sunko.github.io/Serhii-Sunko-emotion-AMP_interactive"
+    "url": "git+https://github.com/goitacademy/Team-1"
   },
   "keywords": [],
-  "author": "Serhii Sunko <sergeysunko01@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
