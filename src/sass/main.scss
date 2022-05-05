@@ -1,0 +1,24 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/decoration-utils';
+
+@import './base/fonts';
+@import './base/global-styles';
+@import './base/container';
+@import './base/button';
+@import './base/card-set';
+
+@import './components/header';
+@import './components/banner';
+@import './components/video';
+
+@import './components/footer';
+

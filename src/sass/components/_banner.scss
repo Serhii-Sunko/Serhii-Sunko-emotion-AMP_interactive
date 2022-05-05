@@ -1,0 +1,102 @@
+.guarantee {
+  &__title {
+    @include font(800, 26px, 130%, 0.03em);
+    text-align: center;
+    color: var(--second-text);
+    text-align: left;
+
+    margin-bottom: 36px;
+    
+    @media screen and (min-width: 1366px) {
+      margin-top: 80px;
+      @include font(800, 46px, 60px, 0.03em);
+      text-align: left;
+    }
+  }
+
+  &__container {
+    background-color: var(--black);
+  }
+
+  &__list {
+    // padding: 50px 20px 50px 35px;
+
+    @media screen and(min-width: 768px) {
+      // padding: 30px 50px 30px 118px;
+    }
+    @media screen and (min-width: 1366px) {
+      padding: 50px 112px 45px 0px;
+    }
+  }
+
+  &__item {
+    display: block;
+    position: relative;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+  }
+
+  &__icon {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: -35px;
+    top: 0;
+    z-index: 950;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__icon {
+      left: -45px;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    &__icon {
+      width: 22px;
+      height: 30px;
+      left: -42px;
+    }
+  }
+
+  &__text {
+    @include font(500, 12px, 167%);
+    color: var(--white);
+  }
+
+  @media screen and (min-width: 1366px) {
+    &__text {
+      font-size: 20px;
+    }
+  }
+
+  &__accent {
+    color: var(--accent-color);
+  }
+
+  &__left-border {
+    display: block;
+    height: 48px;
+    width: 0;
+    border-left: 1px dashed var(--white);
+
+    position: absolute;
+    top: 50%;
+    left: -29px;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__left-border {
+      left: -39px;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    &__left-border {
+      left: -33px;
+    }
+  }
+}
